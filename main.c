@@ -32,12 +32,11 @@ int main() {
 	n = 3 - m;
   }
   n = 0;
-  while (perm[n]){
+  while (n < 9){
   	printf("%c",perm[n]);
   	n++;
   }
-  printf("\n");
-
+printf("\n");
 
 
 
